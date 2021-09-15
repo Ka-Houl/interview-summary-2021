@@ -2,10 +2,10 @@
 
 ## 一面 电话
 
-- webpack的loader 和plugin说一下
-- webpack做过什么优化
+- webpack 的 loader 和 plugin 说一下
+- webpack 做过什么优化
+- 微前端的基座一般放什么公共数据了
 - 笔试题，手写一个 ts 版本的防抖函数
 - 很多忘了
 
 ## 面试感想
-
