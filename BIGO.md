@@ -83,5 +83,42 @@ console.log(findOneNum([1, 10, 11, 12, 13]))
 - https 如何加密解密
 - 浏览器缓存
 
-# 二面 
+## 二面 微信视频通话
+- react class和function component的生命周期类比
+- 用react有做过什么优化
+- 项目有做过什么优化
+- 在豌豆加班多吗
+
+```js
+const diffJson = (obj1, obj2) => {
+  let flag = false
+
+  let res = hackDiffJson(obj1, obj2)
+  let res2 = hackDiffJson(obj2, obj1)
+
+  function hackDiffJson(param1, params2) {
+    let hackFlag = true
+    Object.keys(param1).forEach(key => {
+      let param1Val = param1[key]
+      let params2Val = params2[key]
+      if (!params2Val || params2Val !== param1Val) {
+        hackFlag = false
+      }
+    })
+
+    return hackFlag
+  }
+
+  flag = res && res2
+  return flag
+}
+
+// 少了递归处理，做得不对，网上很多答案了
+console.log(diffJson({ name: 'taobao', age: 18 }, { name: 'taobao', age: 18 }))
+
+console.log(diffJson({ name: 'alibaba', age: 20 }, { name: 'taobao', age: 18 }))
+```
+
 ## 面试感想
+
+BIGO live 直播 项目 app 内嵌 技术团队 项目组前端 10 人左右 技术栈 vue2 + ts
