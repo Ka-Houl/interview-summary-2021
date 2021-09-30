@@ -121,4 +121,4 @@ console.log(diffJson({ name: 'alibaba', age: 20 }, { name: 'taobao', age: 18 }))
 
 ## 面试感想
 
-BIGO live 直播 项目 app 内嵌 技术团队 项目组前端 10 人左右 技术栈 vue2 + ts
+BIGO live 直播 项目 app 内嵌 技术团队 项目组前端 10 人左右 技术栈 vue2 + ts  二面挂

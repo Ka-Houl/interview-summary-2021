@@ -13,4 +13,19 @@
 - redux 的 useSelector 怎么用
 - package.lock.json 的作用 为什么要锁版本
 
+## 二面 CTO 视频
+
+- 问项目，遇到的难点 balabala
+
+## 三面 CEO 视频
+
+- 问项目，遇到的难点 balabala
+- 职业规划
+
+
+
+## 四面 HR 视频
+- 略
+
 ## 面试感想
+- base深圳·做企业级管理工具的，类似于wiki JIRA等
